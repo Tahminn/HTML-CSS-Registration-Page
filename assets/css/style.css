@@ -1,0 +1,76 @@
+body{
+    background-image: url(/assets/img/background\ city.jpg);
+}
+.journal{
+    background-color: rgb(54, 53, 53);
+    height: 50px;    
+    padding-top: 20px;
+}
+.journal a.journaltext{
+    font-family:cursive;
+    padding-left: 10px;
+}
+.journal a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family:sans-serif ;
+    font-size: 20px;
+}
+.rightRegistration form a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 12px;
+}
+.rightRegistration{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing:border-box;
+    padding-left: 45px;
+    padding-top: 5px;
+    width: 350px;
+    height: 450px;
+} 
+.leftRegistration{
+    background-image: url(/assets/img/left\ side\ login\ backgrround.jpg); 
+    position: absolute;
+    width: 350px;
+    height: 450px;
+}
+.registration{
+    position: relative;
+    height: 450px;
+    width: 700px;
+    box-shadow: 4px 4px 4px rgb(153, 34, 34);
+    margin-top: 200px;
+    margin-left: 600px;
+    background-color: white;
+}
+.rightRegistration .txt{
+    border: none;
+    border-bottom: 1px solid rgb(216, 205, 205);
+    box-sizing: border-box;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.submit{
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    width: 130px;
+    font-size: larger;
+}
+.register{
+    font-size: 35px;
+    font-family:sans-serif;
+    color: rgb(116, 111, 111);
+}
+.AlreadyHaveAcc{
+    font-size: 15px;
+    font-family:sans-serif;
+    color: rgb(116, 111, 111);
+}
